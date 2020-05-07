@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+}
+
+body{
+    margin:0;
+    margin-top: -10px;
+    background-color: #90EE90;
+}
+
+body header h1{
+    font-weight: lighter;
+    font-size: 60px;
+    color:white;
+    background-color: black;
+}
+
+.标语{
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 95px;
+    font-style:italic ;
+    font-size: 30px;
+}
+nav{
+    font-size: 20px;
+    position: absolute;
+    top: 1.0em;
+    right: 20px;
+}
+
+nav a:link{
+    color: #FFFFFF;
+}
+
+nav a:visited{
+    color: yellow;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav a:active{
+    color: white;
+}
+
+header{
+    margin-top: -3.5em;
+}
+
+form {
+    margin-top: -30px;
+    float: right;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin-left: 500px;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.big{
+    margin-left: 130px;
+}
+
+.big h1 {
+    font-size: 30px
+}
+
+section .checkbox{
+    font-size: 20px;
+}
+
+label .checkbox{
+    display: inline-block;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin-left: -30px;
+    margin-top: -10px
+}
+
+
+
+.figcaption{
+    margin-left: -30px;
+}
+
+.table{
+    border-spacing: 30px;
+}
+
+.button{
+    font-size: 20px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.section{
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
